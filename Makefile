@@ -21,7 +21,7 @@
 #
 
 CFLAGS ?= -O2
-CC = gcc $(CFLAGS)
+CC = musl-gcc $(CFLAGS)
 PYTHON = python2 -m py_compile
 GZIP = gzip
 SHELL := /bin/bash
